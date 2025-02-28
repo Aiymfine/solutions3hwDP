@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Dungeon {
-     String name;
-     List<Room> rooms;
-     List<NPC> npcs;
+     private String name;
+     private List<Room> rooms;
+     private List<NPC> npcs;
 
     public Dungeon(String name, List<Room> rooms, List<NPC> npcs) {
         this.name=name;
